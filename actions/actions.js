@@ -3,7 +3,7 @@ import * as validate from '../validations/validations'
 
 
 export const navigateHomePage = async()=>{
-    await $(ID.myAccountPage.homePageNav).click();
+    await $(id.myAccountPage.homePageNav).click();
 }
 
 export const addAndValidateProdToCart = async(prodName)=>{
