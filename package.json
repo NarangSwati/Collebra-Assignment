@@ -19,11 +19,11 @@
         "wdio-chromedriver-service": "^7.2.2"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js",
+        "runall": "wdio run wdio.conf.js",
         "dry":"yarn run wdio -- --cucumberOpts.tagExpression='@LoginLogout'",
         "Login&Logout":"yarn run wdio -- --cucumberOpts.tagExpression='@LoginLogout'",
         "registernewuser":"yarn run wdio -- --cucumberOpts.tagExpression='@Register'",
-        "add2cart": "yarn run wdio -- --cucumberOpts.tagExpression='@AddtoCart' && yarn run report",
+        "add2cart": "yarn run wdio -- --cucumberOpts.tagExpression='@AddtoCart'",
         "report": "allure serve './allure-results' --clean"
     },
     "dependencies": {
