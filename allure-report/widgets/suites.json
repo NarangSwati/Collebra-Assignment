@@ -1,37 +1,15 @@
 {
-  "total" : 3,
+  "total" : 1,
   "items" : [ {
-    "uid" : "1e10abe8bf3c4ce9a9447c2ea5c6de3e",
-    "name" : "Register New User: As a user, I can register on website",
+    "uid" : "3f298776cb8fe5e0016d4bb6a8f468cd",
+    "name" : "Register New User: As a user, I can login and logout into the website",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 7,
-      "unknown" : 0,
-      "total" : 8
-    }
-  }, {
-    "uid" : "3c0d2c2157484d4cea5a28742fbf66e3",
-    "name" : "Register New User: As a user, I can add a product to the cart and proceed to payment",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 1,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 8
-    }
-  }, {
-    "uid" : "5c68a846c4f4cbdb9bef5c380d88a1dd",
-    "name" : "Register New User: As a user, I can login into the website",
-    "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 6,
+      "skipped" : 2,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     }
   } ]
 }

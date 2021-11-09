@@ -1,0 +1,58 @@
+{
+  "uid" : "e799c6ce63b50a4e",
+  "name" : "When I signin with following username and password",
+  "fullName" : "Register New User: As a user, I can login and logout into the website.When I signin with following username and password",
+  "historyId" : "44ad4d6cb7106221da220fd50119fa38",
+  "time" : {
+    "start" : 1636461472111,
+    "stop" : 1636461472810,
+    "duration" : 699
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I signin with following username and password"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e799c6ce63b50a4e.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

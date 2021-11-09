@@ -1,0 +1,64 @@
+{
+  "uid" : "b6d2c3a5949d52b9",
+  "name" : "Then the correct first name and surname is displayed",
+  "fullName" : "Register New User: As a user, I can login and logout into the website.Then the correct first name and surname is displayed",
+  "historyId" : "7b3fe2f4c3c1190c706c95bb15f55db7",
+  "time" : {
+    "start" : 1636461472810,
+    "stop" : 1636461482857,
+    "duration" : 10047
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Expect $(`//a[@class='account']/span`) to have text containing",
+  "statusTrace" : "Error: Expect $(`//a[@class='account']/span`) to have text containing\n                \n                Expected: \"Test test\"\n                Received: undefined\n                    at World.<anonymous> (C:\\Collebra-Assignment\\features\\step-definitions\\/registeruser-steps.js:70:51)\n                    at World.executeAsync (C:\\Collebra-Assignment\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at World.testFrameworkFnWrapper (C:\\Collebra-Assignment\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Object.wrapPromiseWithTimeout (C:\\Collebra-Assignment\\node_modules\\@cucumber\\cucumber\\src\\time.ts:56:10)\n                    at Object.run (C:\\Collebra-Assignment\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:86:16)\n                    at Object.run (C:\\Collebra-Assignment\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:50:20)\n                    at TestCaseRunner.invokeStep (C:\\Collebra-Assignment\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:130:12)\n                    at TestCaseRunner.runStep (C:\\Collebra-Assignment\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:307:20)\n                    at C:\\Collebra-Assignment\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:210:36",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the correct first name and surname is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b6d2c3a5949d52b9.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

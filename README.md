@@ -2,17 +2,10 @@
 
 ## Prerequisite
 
-* Nodejs installed (https://nodejs.org/en/download/), version 17.0.1
-
-```
-  brew install node
-```
+* Nodejs installed (https://nodejs.org/en/download/), version 16.13.0 and above
 
 * yarn installed (https://yarnpkg.com/lang/en/docs/install/)
 
-```
-  brew install yarn --without-node
-```
 
 * git clone this repo to your local
 
@@ -47,6 +40,8 @@ $ yarn run Login&Logout
 $ yarn run registernewuser 
 $ yarn run add2cart 
 ```
+## Allure Report
+* Report is generated on the completion of test
   
 ## Tagging specs
   

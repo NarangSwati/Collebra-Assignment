@@ -1,43 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "Error: Option with text \"1981\" not found.",
+      "name" : "Error: Expect $(`//a[@class='account']/span`) to have text containing",
       "children" : [ {
-        "name" : "When I enter personal info on the personal info page and click on register",
-        "uid" : "283ba9a99bdd87d9",
-        "parentUid" : "2f8bbbb690e9c991fb310d5b4a730d99",
-        "status" : "broken",
+        "name" : "Then the correct first name and surname is displayed",
+        "uid" : "b6d2c3a5949d52b9",
+        "parentUid" : "f36b5a8a843009374e37e4db3ebbf48a",
+        "status" : "failed",
         "time" : {
-          "start" : 1636333773454,
-          "stop" : 1636333775220,
-          "duration" : 1766
+          "start" : 1636461472810,
+          "stop" : 1636461482857,
+          "duration" : 10047
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-95.0.4638.69" ]
       } ],
-      "uid" : "2f8bbbb690e9c991fb310d5b4a730d99"
-    }, {
-      "name" : "element not interactable",
-      "children" : [ {
-        "name" : "When I select the 'Blouse' product and add it in cart and navigate to payments screen",
-        "uid" : "5036c1e6c011e631",
-        "parentUid" : "8d63a8d6f9426fb23642c567c8a3c8ca",
-        "status" : "broken",
-        "time" : {
-          "start" : 1636454910405,
-          "stop" : 1636454914241,
-          "duration" : 3836
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome-95.0.4638.69" ]
-      } ],
-      "uid" : "8d63a8d6f9426fb23642c567c8a3c8ca"
+      "uid" : "f36b5a8a843009374e37e4db3ebbf48a"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

@@ -1,0 +1,66 @@
+{
+  "uid" : "43994396afef2c77",
+  "name" : "",
+  "fullName" : "Register New User: As a user, I can login and logout into the website.",
+  "historyId" : "43d5561eeaacb71183d1fa7439276e36",
+  "time" : {
+    "start" : 1636461482858,
+    "stop" : 1636461482859,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "deaea79c92f66b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636461449647,
+        "stop" : 1636461449648,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43994396afef2c77.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

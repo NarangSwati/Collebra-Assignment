@@ -1,0 +1,58 @@
+{
+  "uid" : "aec0aa16dd7be872",
+  "name" : "When I click on signout button",
+  "fullName" : "Register New User: As a user, I can login and logout into the website.When I click on signout button",
+  "historyId" : "b3b4e68f92f14e9dde7c6bcfa156f774",
+  "time" : {
+    "start" : 1636461482857,
+    "stop" : 1636461482857,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on signout button"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can login and logout into the website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aec0aa16dd7be872.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

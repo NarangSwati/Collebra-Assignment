@@ -1,283 +1,81 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
-    "name" : "Register New User: As a user, I can register on website",
+    "name" : "Register New User: As a user, I can login and logout into the website",
     "children" : [ {
-      "name" : "When I enter personal info on the personal info page and click on register",
-      "uid" : "283ba9a99bdd87d9",
-      "parentUid" : "beb9c7e953dbd2a3b30583a55142266f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1636333773454,
-        "stop" : 1636333775220,
-        "duration" : 1766
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
       "name" : "Given I am on the landing page",
-      "uid" : "189f81f59123fe37",
-      "parentUid" : "beb9c7e953dbd2a3b30583a55142266f",
+      "uid" : "e909f75191720a4d",
+      "parentUid" : "6f9e2f9db3d97a2e1e9e7956781ddc22",
       "status" : "passed",
       "time" : {
-        "start" : 1636351759940,
-        "stop" : 1636351772545,
-        "duration" : 12605
+        "start" : 1636461449648,
+        "stop" : 1636461460140,
+        "duration" : 10492
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-95.0.4638.69" ]
     }, {
       "name" : "When I click on Sign in",
-      "uid" : "fb44d1c3d218056",
-      "parentUid" : "beb9c7e953dbd2a3b30583a55142266f",
+      "uid" : "7dc176f5697d84ab",
+      "parentUid" : "6f9e2f9db3d97a2e1e9e7956781ddc22",
       "status" : "passed",
       "time" : {
-        "start" : 1636351772545,
-        "stop" : 1636351774694,
-        "duration" : 2149
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "Then I am on authentication page",
-      "uid" : "ffce743ef6c3dd30",
-      "parentUid" : "beb9c7e953dbd2a3b30583a55142266f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636351774694,
-        "stop" : 1636351774961,
-        "duration" : 267
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "When I enter my email to create an account",
-      "uid" : "a7d7f7a07cb89515",
-      "parentUid" : "beb9c7e953dbd2a3b30583a55142266f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636351774961,
-        "stop" : 1636351775535,
-        "duration" : 574
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "Then I am on personal info page",
-      "uid" : "ec720b09b65572b7",
-      "parentUid" : "beb9c7e953dbd2a3b30583a55142266f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636351775535,
-        "stop" : 1636351777763,
-        "duration" : 2228
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "When I enter following personal info on the personal info page and click on register",
-      "uid" : "de64d28a4df5d93c",
-      "parentUid" : "beb9c7e953dbd2a3b30583a55142266f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636351777764,
-        "stop" : 1636351781376,
-        "duration" : 3612
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "",
-      "uid" : "7864929bab508c2",
-      "parentUid" : "beb9c7e953dbd2a3b30583a55142266f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636351781377,
-        "stop" : 1636351781378,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    } ],
-    "uid" : "beb9c7e953dbd2a3b30583a55142266f"
-  }, {
-    "name" : "Register New User: As a user, I can login into the website",
-    "children" : [ {
-      "name" : "Given I am on the landing page",
-      "uid" : "2db2266e0982d174",
-      "parentUid" : "540897b00c3783090125a11cd12e3b30",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636346821841,
-        "stop" : 1636346827402,
-        "duration" : 5561
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "When I click on Sign in",
-      "uid" : "4507dd617dd2e22a",
-      "parentUid" : "540897b00c3783090125a11cd12e3b30",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636346827402,
-        "stop" : 1636346830387,
-        "duration" : 2985
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "Then I am on authentication page",
-      "uid" : "6d984b927c5001bb",
-      "parentUid" : "540897b00c3783090125a11cd12e3b30",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636346830387,
-        "stop" : 1636346830679,
-        "duration" : 292
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "When I enter my email and password in already registered section and click on signin",
-      "uid" : "e444b06e5fe4a006",
-      "parentUid" : "540897b00c3783090125a11cd12e3b30",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636346830680,
-        "stop" : 1636346833761,
-        "duration" : 3081
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "Then the correct first name and surname is displayed",
-      "uid" : "9987e9bfd16e40c7",
-      "parentUid" : "540897b00c3783090125a11cd12e3b30",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636346833761,
-        "stop" : 1636346843752,
-        "duration" : 9991
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "",
-      "uid" : "1664ed918a31bf6e",
-      "parentUid" : "540897b00c3783090125a11cd12e3b30",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636346843752,
-        "stop" : 1636346843753,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    } ],
-    "uid" : "540897b00c3783090125a11cd12e3b30"
-  }, {
-    "name" : "Register New User: As a user, I can add a product to the cart and proceed to payment",
-    "children" : [ {
-      "name" : "Given I am on the landing page",
-      "uid" : "146c9abd074adff8",
-      "parentUid" : "7023d2d735bd2abfa155a798aafffc4c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636454894836,
-        "stop" : 1636454902642,
-        "duration" : 7806
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "When I click on Sign in",
-      "uid" : "7511336e519c0742",
-      "parentUid" : "7023d2d735bd2abfa155a798aafffc4c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636454902642,
-        "stop" : 1636454905919,
-        "duration" : 3277
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "Then I am on authentication page",
-      "uid" : "cd8abb80b18d0d96",
-      "parentUid" : "7023d2d735bd2abfa155a798aafffc4c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636454905919,
-        "stop" : 1636454906099,
-        "duration" : 180
+        "start" : 1636461460140,
+        "stop" : 1636461472019,
+        "duration" : 11879
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-95.0.4638.69" ]
     }, {
       "name" : "When I signin with following username and password",
-      "uid" : "a14b924eaf0e768d",
-      "parentUid" : "7023d2d735bd2abfa155a798aafffc4c",
+      "uid" : "e799c6ce63b50a4e",
+      "parentUid" : "6f9e2f9db3d97a2e1e9e7956781ddc22",
       "status" : "passed",
       "time" : {
-        "start" : 1636454906099,
-        "stop" : 1636454910313,
-        "duration" : 4214
+        "start" : 1636461472111,
+        "stop" : 1636461472810,
+        "duration" : 699
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-95.0.4638.69" ]
     }, {
       "name" : "Then the correct first name and surname is displayed",
-      "uid" : "c7d5911e8040cede",
-      "parentUid" : "7023d2d735bd2abfa155a798aafffc4c",
-      "status" : "passed",
+      "uid" : "b6d2c3a5949d52b9",
+      "parentUid" : "6f9e2f9db3d97a2e1e9e7956781ddc22",
+      "status" : "failed",
       "time" : {
-        "start" : 1636454910313,
-        "stop" : 1636454910405,
-        "duration" : 92
+        "start" : 1636461472810,
+        "stop" : 1636461482857,
+        "duration" : 10047
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-95.0.4638.69" ]
     }, {
-      "name" : "When I select the 'Blouse' product and add it in cart and navigate to payments screen",
-      "uid" : "5036c1e6c011e631",
-      "parentUid" : "7023d2d735bd2abfa155a798aafffc4c",
-      "status" : "broken",
-      "time" : {
-        "start" : 1636454910405,
-        "stop" : 1636454914241,
-        "duration" : 3836
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "Then I validate the details on payment screen",
-      "uid" : "937e98642ba870cb",
-      "parentUid" : "7023d2d735bd2abfa155a798aafffc4c",
+      "name" : "When I click on signout button",
+      "uid" : "aec0aa16dd7be872",
+      "parentUid" : "6f9e2f9db3d97a2e1e9e7956781ddc22",
       "status" : "skipped",
       "time" : {
-        "start" : 1636454914241,
-        "stop" : 1636454914242,
+        "start" : 1636461482857,
+        "stop" : 1636461482857,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "Then I am on authentication page",
+      "uid" : "ea54f05305ff6a69",
+      "parentUid" : "6f9e2f9db3d97a2e1e9e7956781ddc22",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1636461482857,
+        "stop" : 1636461482858,
         "duration" : 1
       },
       "flaky" : false,
@@ -285,19 +83,18 @@
       "parameters" : [ "chrome-95.0.4638.69" ]
     }, {
       "name" : "",
-      "uid" : "eec62a3a7c5a4b1d",
-      "parentUid" : "7023d2d735bd2abfa155a798aafffc4c",
+      "uid" : "43994396afef2c77",
+      "parentUid" : "6f9e2f9db3d97a2e1e9e7956781ddc22",
       "status" : "passed",
       "time" : {
-        "start" : 1636454914242,
-        "stop" : 1636454914243,
+        "start" : 1636461482858,
+        "stop" : 1636461482859,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-95.0.4638.69" ]
     } ],
-    "uid" : "7023d2d735bd2abfa155a798aafffc4c"
-  } ],
-  "name" : "packages"
+    "uid" : "6f9e2f9db3d97a2e1e9e7956781ddc22"
+  } ]
 }
