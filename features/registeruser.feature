@@ -1,3 +1,4 @@
+@All
 Feature: Register New User
 
 @Register

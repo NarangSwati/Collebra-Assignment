@@ -23,7 +23,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './features/*.feature'
+        './features/registeruser.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -323,7 +323,7 @@ exports.config = {
         return new Promise((resolve, reject) => {
             const generationTimeout = setTimeout(
                 () => reject(reportError),
-                5000)
+                30000)
 
             generation.on('exit', function(exitCode) {
                 clearTimeout(generationTimeout)

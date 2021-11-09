@@ -19,7 +19,7 @@
         "wdio-chromedriver-service": "^7.2.2"
     },
     "scripts": {
-        "runall": "wdio run wdio.conf.js",
+        "runall": "yarn run wdio -- --cucumberOpts.tagExpression='@All'",
         "dry":"yarn run wdio -- --cucumberOpts.tagExpression='@LoginLogout'",
         "Login&Logout":"yarn run wdio -- --cucumberOpts.tagExpression='@LoginLogout'",
         "registernewuser":"yarn run wdio -- --cucumberOpts.tagExpression='@Register'",

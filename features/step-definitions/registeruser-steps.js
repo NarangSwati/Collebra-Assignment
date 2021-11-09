@@ -66,7 +66,7 @@ When(/^I signin with following username and password$/, async (table) => {
 });
 
 Then(/^the correct first name and surname is displayed$/, async () => {
-    const accountName = 'Test test';
+    const accountName = 'Test Test';
     await expect($(id.myAccountPage.accountName)).toHaveTextContaining(accountName);
 });
 

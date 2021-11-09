@@ -7,10 +7,9 @@ export const navigateHomePage = async()=>{
 }
 
 export const addAndValidateProdToCart = async(prodName)=>{
-    const prodId = await(`id.productPage.product[@title=${prodName}]`) 
-
     await $(id.myAccountPage.homePageNav).click();
-    await prodId.waitForClickable({ reverse: true });
+    const prodId = id.productPage.product + "[@title=" + prodName + "]";
+    await $(prodId).click();
     await $(id.productPage.cart).click();
     await expect($(id.productPage.cartConfirmation.message)).toHaveTextContaining(validate.addProdSuccMsg);
 }             
