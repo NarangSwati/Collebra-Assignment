@@ -1,0 +1,58 @@
+{
+  "uid" : "ab75a4c5a35922a9",
+  "name" : "Given I am on the landing page",
+  "fullName" : "Register New User: As a user, I can add a product to the cart and proceed to payment.Given I am on the landing page",
+  "historyId" : "64242fb7ce3f738d4f93dbbf16b3459e",
+  "time" : {
+    "start" : 1636451169540,
+    "stop" : 1636451169552,
+    "duration" : 12
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: Parameter for \"url\" command needs to be type of string",
+  "statusTrace" : "Error: Parameter for \"url\" command needs to be type of string\n                    at Browser.url (/Users/dcube/Collebra-Assignment/node_modules/webdriverio/build/commands/browser/url.js:42:15)\n                    at Browser.wrapCommandFn (/Users/dcube/Collebra-Assignment/node_modules/@wdio/utils/build/shim.js:131:38)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at World.<anonymous> (/Users/dcube/Collebra-Assignment/features/step-definitions/registeruser-steps.js:12:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the landing page"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab75a4c5a35922a9.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

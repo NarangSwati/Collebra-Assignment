@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error: Option with text \"1981\" not found.",
+      "children" : [ {
+        "name" : "When I enter personal info on the personal info page and click on register",
+        "uid" : "283ba9a99bdd87d9",
+        "parentUid" : "2f8bbbb690e9c991fb310d5b4a730d99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636333773454,
+          "stop" : 1636333775220,
+          "duration" : 1766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-95.0.4638.69" ]
+      } ],
+      "uid" : "2f8bbbb690e9c991fb310d5b4a730d99"
+    }, {
+      "name" : "element not interactable",
+      "children" : [ {
+        "name" : "When I select the 'Blouse' product and add it in cart and navigate to payments screen",
+        "uid" : "5036c1e6c011e631",
+        "parentUid" : "8d63a8d6f9426fb23642c567c8a3c8ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636454910405,
+          "stop" : 1636454914241,
+          "duration" : 3836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-95.0.4638.69" ]
+      } ],
+      "uid" : "8d63a8d6f9426fb23642c567c8a3c8ca"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "fe578d2b60a22236",
+  "name" : "Given I am on the landing page",
+  "fullName" : "Register New User: As a user, I can add a product to the cart and proceed to payment.Given I am on the landing page",
+  "historyId" : "64242fb7ce3f738d4f93dbbf16b3459e",
+  "time" : {
+    "start" : 1636446815634,
+    "stop" : 1636446829390,
+    "duration" : 13756
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the landing page"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe578d2b60a22236.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

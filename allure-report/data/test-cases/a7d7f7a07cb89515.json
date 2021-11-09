@@ -1,0 +1,74 @@
+{
+  "uid" : "a7d7f7a07cb89515",
+  "name" : "When I enter my email to create an account",
+  "fullName" : "Register New User: As a user, I can register on website.When I enter my email to create an account",
+  "historyId" : "21c2b4d68dcfff62bbf71d67be8ded16",
+  "time" : {
+    "start" : 1636351774961,
+    "stop" : 1636351775535,
+    "duration" : 574
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can register on website"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can register on website"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter my email to create an account"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can register on website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b56465d85e0d7198",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636333771200,
+        "stop" : 1636333771755,
+        "duration" : 555
+      }
+    }, {
+      "uid" : "55aed475a3fec342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636260057605,
+        "stop" : 1636260058219,
+        "duration" : 614
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7d7f7a07cb89515.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

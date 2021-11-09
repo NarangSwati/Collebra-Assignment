@@ -1,0 +1,221 @@
+[ {
+  "uid" : "fb44d1c3d218056",
+  "name" : "When I click on Sign in",
+  "time" : {
+    "start" : 1636351772545,
+    "stop" : 1636351774694,
+    "duration" : 2149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "283ba9a99bdd87d9",
+  "name" : "When I enter personal info on the personal info page and click on register",
+  "time" : {
+    "start" : 1636333773454,
+    "stop" : 1636333775220,
+    "duration" : 1766
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e444b06e5fe4a006",
+  "name" : "When I enter my email and password in already registered section and click on signin",
+  "time" : {
+    "start" : 1636346830680,
+    "stop" : 1636346833761,
+    "duration" : 3081
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "189f81f59123fe37",
+  "name" : "Given I am on the landing page",
+  "time" : {
+    "start" : 1636351759940,
+    "stop" : 1636351772545,
+    "duration" : 12605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd8abb80b18d0d96",
+  "name" : "Then I am on authentication page",
+  "time" : {
+    "start" : 1636454905919,
+    "stop" : 1636454906099,
+    "duration" : 180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5036c1e6c011e631",
+  "name" : "When I select the 'Blouse' product and add it in cart and navigate to payments screen",
+  "time" : {
+    "start" : 1636454910405,
+    "stop" : 1636454914241,
+    "duration" : 3836
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7511336e519c0742",
+  "name" : "When I click on Sign in",
+  "time" : {
+    "start" : 1636454902642,
+    "stop" : 1636454905919,
+    "duration" : 3277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2db2266e0982d174",
+  "name" : "Given I am on the landing page",
+  "time" : {
+    "start" : 1636346821841,
+    "stop" : 1636346827402,
+    "duration" : 5561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a14b924eaf0e768d",
+  "name" : "When I signin with following username and password",
+  "time" : {
+    "start" : 1636454906099,
+    "stop" : 1636454910313,
+    "duration" : 4214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7864929bab508c2",
+  "name" : "",
+  "time" : {
+    "start" : 1636351781377,
+    "stop" : 1636351781378,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9987e9bfd16e40c7",
+  "name" : "Then the correct first name and surname is displayed",
+  "time" : {
+    "start" : 1636346833761,
+    "stop" : 1636346843752,
+    "duration" : 9991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffce743ef6c3dd30",
+  "name" : "Then I am on authentication page",
+  "time" : {
+    "start" : 1636351774694,
+    "stop" : 1636351774961,
+    "duration" : 267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "937e98642ba870cb",
+  "name" : "Then I validate the details on payment screen",
+  "time" : {
+    "start" : 1636454914241,
+    "stop" : 1636454914242,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "146c9abd074adff8",
+  "name" : "Given I am on the landing page",
+  "time" : {
+    "start" : 1636454894836,
+    "stop" : 1636454902642,
+    "duration" : 7806
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7d7f7a07cb89515",
+  "name" : "When I enter my email to create an account",
+  "time" : {
+    "start" : 1636351774961,
+    "stop" : 1636351775535,
+    "duration" : 574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec720b09b65572b7",
+  "name" : "Then I am on personal info page",
+  "time" : {
+    "start" : 1636351775535,
+    "stop" : 1636351777763,
+    "duration" : 2228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de64d28a4df5d93c",
+  "name" : "When I enter following personal info on the personal info page and click on register",
+  "time" : {
+    "start" : 1636351777764,
+    "stop" : 1636351781376,
+    "duration" : 3612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1664ed918a31bf6e",
+  "name" : "",
+  "time" : {
+    "start" : 1636346843752,
+    "stop" : 1636346843753,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7d5911e8040cede",
+  "name" : "Then the correct first name and surname is displayed",
+  "time" : {
+    "start" : 1636454910313,
+    "stop" : 1636454910405,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eec62a3a7c5a4b1d",
+  "name" : "",
+  "time" : {
+    "start" : 1636454914242,
+    "stop" : 1636454914243,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4507dd617dd2e22a",
+  "name" : "When I click on Sign in",
+  "time" : {
+    "start" : 1636346827402,
+    "stop" : 1636346830387,
+    "duration" : 2985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d984b927c5001bb",
+  "name" : "Then I am on authentication page",
+  "time" : {
+    "start" : 1636346830387,
+    "stop" : 1636346830679,
+    "duration" : 292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,141 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636451169538' stop='1636451169555'>
+    <name>Register New User: As a user, I can add a product to the cart and proceed to payment</name>
+    <title>Register New User: As a user, I can add a product to the cart and proceed to payment</title>
+    <test-cases>
+        <test-case start='1636451169538' status='passed' stop='1636451169540'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636451169540' status='broken' stop='1636451169552'>
+            <name>Given I am on the landing page</name>
+            <title>Given I am on the landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at Browser.url (/Users/dcube/Collebra-Assignment/node_modules/webdriverio/build/commands/browser/url.js:42:15)
+                    at Browser.wrapCommandFn (/Users/dcube/Collebra-Assignment/node_modules/@wdio/utils/build/shim.js:131:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at World.&lt;anonymous> (/Users/dcube/Collebra-Assignment/features/step-definitions/registeruser-steps.js:12:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636451169552' status='pending' stop='1636451169553'>
+            <name>When I click on Sign in</name>
+            <title>When I click on Sign in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636451169553' status='pending' stop='1636451169553'>
+            <name>Then I am on authentication page</name>
+            <title>Then I am on authentication page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636451169554' status='pending' stop='1636451169554'>
+            <name>When I signin with following username and password</name>
+            <title>When I signin with following username and password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636451169554' status='pending' stop='1636451169554'>
+            <name>Then the correct first name and surname is displayed</name>
+            <title>Then the correct first name and surname is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636451169554' status='pending' stop='1636451169554'>
+            <name>When I select the 'Blouse' product and add it in cart and navigate to payments screen</name>
+            <title>When I select the 'Blouse' product and add it in cart and navigate to payments screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636451169554' status='pending' stop='1636451169554'>
+            <name>Then I validate the details on payment screen</name>
+            <title>Then I validate the details on payment screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636451169554' status='passed' stop='1636451169555'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

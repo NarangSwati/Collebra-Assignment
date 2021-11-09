@@ -1,0 +1,106 @@
+{
+  "uid" : "a14b924eaf0e768d",
+  "name" : "When I signin with following username and password",
+  "fullName" : "Register New User: As a user, I can add a product to the cart and proceed to payment.When I signin with following username and password",
+  "historyId" : "e895a763ffe37d90048b6d745e584089",
+  "time" : {
+    "start" : 1636454906099,
+    "stop" : 1636454910313,
+    "duration" : 4214
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I signin with following username and password"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fbe08c3cf2314e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636454844443,
+        "stop" : 1636454850249,
+        "duration" : 5806
+      }
+    }, {
+      "uid" : "b2fa5bad26d643a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636451708364,
+        "stop" : 1636451723791,
+        "duration" : 15427
+      }
+    }, {
+      "uid" : "a4a9b9a504e86aba",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1636451169554,
+        "stop" : 1636451169554,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "907646b23d5571b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636446843697,
+        "stop" : 1636446857953,
+        "duration" : 14256
+      }
+    }, {
+      "uid" : "f773595d48a6b014",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1636444722842,
+        "stop" : 1636444722843,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "42e190353e54d891",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636444567077,
+        "stop" : 1636444581422,
+        "duration" : 14345
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a14b924eaf0e768d.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

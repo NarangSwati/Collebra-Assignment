@@ -1,0 +1,74 @@
+{
+  "uid" : "189f81f59123fe37",
+  "name" : "Given I am on the landing page",
+  "fullName" : "Register New User: As a user, I can register on website.Given I am on the landing page",
+  "historyId" : "d0d060ece96ee1c4fe89585715fb1054",
+  "time" : {
+    "start" : 1636351759940,
+    "stop" : 1636351772545,
+    "duration" : 12605
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can register on website"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can register on website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the landing page"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can register on website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1ff62f6fafe67868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636333761690,
+        "stop" : 1636333768229,
+        "duration" : 6539
+      }
+    }, {
+      "uid" : "b52fc5626db00089",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636260049098,
+        "stop" : 1636260055432,
+        "duration" : 6334
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "189f81f59123fe37.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

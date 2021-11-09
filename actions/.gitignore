@@ -1,0 +1,22 @@
+results/
+reports/
+output/
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+
+# npm
+package-lock.json
+node_modules
+*.log
+*.gz
+
+
+# yarn
+yarn-error.log
+
+# vscode
+.vscode

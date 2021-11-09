@@ -1,0 +1,106 @@
+{
+  "uid" : "937e98642ba870cb",
+  "name" : "Then I validate the details on payment screen",
+  "fullName" : "Register New User: As a user, I can add a product to the cart and proceed to payment.Then I validate the details on payment screen",
+  "historyId" : "6b965753974b2926e7c8102eac97d034",
+  "time" : {
+    "start" : 1636454914241,
+    "stop" : 1636454914242,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I validate the details on payment screen"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9828feefb31f53b5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1636454854636,
+        "stop" : 1636454854636,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "731605cb33875b96",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1636451772820,
+        "stop" : 1636451772820,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "13f2bdcf6da21cdd",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1636451169554,
+        "stop" : 1636451169554,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ff8a234b4d382f2",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1636446883641,
+        "stop" : 1636446883651,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "fda45a5894184e9e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1636444722843,
+        "stop" : 1636444722844,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9619b6b7a104e7ae",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1636444624608,
+        "stop" : 1636444624608,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "937e98642ba870cb.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

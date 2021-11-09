@@ -1,0 +1,56 @@
+{
+  "uid" : "8a18e178bdc4b7",
+  "name" : "When I select the 'Blouse' product and add it in cart and navigate to payments screen",
+  "fullName" : "Register New User: As a user, I can add a product to the cart and proceed to payment.When I select the 'Blouse' product and add it in cart and navigate to payments screen",
+  "historyId" : "ed30a2fa836086d504b84e0fc19b763e",
+  "time" : {
+    "start" : 1636444722843,
+    "stop" : 1636444722843,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I select the 'Blouse' product and add it in cart and navigate to payments screen"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can add a product to the cart and proceed to payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a18e178bdc4b7.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.0",
+        "@babel/register": "^7.16.0",
+        "@wdio/allure-reporter": "^7.16.3",
+        "@wdio/cli": "^7.16.4",
+        "@wdio/cucumber-framework": "^7.1.1",
+        "@wdio/local-runner": "^7.16.4",
+        "@wdio/spec-reporter": "^7.16.4",
+        "allure-commandline": "^2.13.8",
+        "chromedriver": "^95.0.0",
+        "fs": "^0.0.1-security",
+        "lodash": "^4.17.21",
+        "path": "^0.12.7",
+        "wdio-chromedriver-service": "^7.2.2"
+    },
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js",
+        "dry":"yarn run wdio -- --cucumberOpts.tagExpression='@LoginLogout'",
+        "Login&Logout":"yarn run wdio -- --cucumberOpts.tagExpression='@LoginLogout'",
+        "registernewuser":"yarn run wdio -- --cucumberOpts.tagExpression='@Register'",
+        "add2cart": "yarn run wdio -- --cucumberOpts.tagExpression='@AddtoCart' && yarn run report",
+        "report": "allure serve './allure-results' --clean"
+    },
+    "dependencies": {
+        "chance": "^1.1.8"
+    }
+}

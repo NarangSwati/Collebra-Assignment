@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636333761685' stop='1636333775226'>
+    <name>Register New User: As a user, I can register on website</name>
+    <title>Register New User: As a user, I can register on website</title>
+    <test-cases>
+        <test-case start='1636333761686' status='passed' stop='1636333761690'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636333761690' status='passed' stop='1636333768229'>
+            <name>Given I am on the landing page</name>
+            <title>Given I am on the landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636333768229' status='passed' stop='1636333770914'>
+            <name>When I click on Sign in</name>
+            <title>When I click on Sign in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636333770914' status='passed' stop='1636333771199'>
+            <name>Then I am on authentication page</name>
+            <title>Then I am on authentication page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636333771200' status='passed' stop='1636333771755'>
+            <name>When I enter my email to create an account</name>
+            <title>When I enter my email to create an account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636333771755' status='passed' stop='1636333773454'>
+            <name>Then I am on personal info page</name>
+            <title>Then I am on personal info page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636333773454' status='broken' stop='1636333775220'>
+            <name>When I enter personal info on the personal info page and click on register</name>
+            <title>When I enter personal info on the personal info page and click on register</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Option with text "1981" not found.</message>
+                <stack-trace>Error: Option with text "1981" not found.
+                    at Element.selectByVisibleText (/Users/dcube/Collebra-Assignment/node_modules/webdriverio/build/commands/element/selectByVisibleText.js:59:15)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (/Users/dcube/Collebra-Assignment/node_modules/@wdio/utils/build/shim.js:131:29)
+                    at Element.elementErrorHandlerCallbackFn (/Users/dcube/Collebra-Assignment/node_modules/webdriverio/build/middlewares.js:24:32)
+                    at Element.wrapCommandFn (/Users/dcube/Collebra-Assignment/node_modules/@wdio/utils/build/shim.js:131:29)
+                    at World.&lt;anonymous> (/Users/dcube/Collebra-Assignment/features/step-definitions/registeruser-steps.js:39:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636333775220' status='passed' stop='1636333775225'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

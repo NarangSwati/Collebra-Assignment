@@ -1,0 +1,58 @@
+{
+  "uid" : "6d984b927c5001bb",
+  "name" : "Then I am on authentication page",
+  "fullName" : "Register New User: As a user, I can login into the website.Then I am on authentication page",
+  "historyId" : "e3d85f044f59eeabd3d6f9fd5282fe40",
+  "time" : {
+    "start" : 1636346830387,
+    "stop" : 1636346830679,
+    "duration" : 292
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register New User: As a user, I can login into the website"
+  }, {
+    "name" : "testClass",
+    "value" : "Register New User: As a user, I can login into the website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I am on authentication page"
+  }, {
+    "name" : "package",
+    "value" : "Register New User: As a user, I can login into the website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d984b927c5001bb.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}
